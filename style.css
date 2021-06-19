@@ -1,0 +1,65 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+section{
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+}
+.top-area{
+    background: url("images/top-banner.png") no-repeat left;
+}
+.dream-area{
+    background: url("images/dream-bg.png") no-repeat right;
+}
+.exprience-area{
+    background: url("images/exp-bg.png") no-repeat left;
+}
+.half-width{
+    width: 40%;
+    margin: 0;
+    margin-left: 5%;
+    padding: 0;
+    padding-left: 2%;
+}
+.half-width h1{
+    font-size: 50px;
+}
+.half-width p{
+    text-align: justify;
+}
+.half-width img{
+    height: 100%;
+}
+.half-width a{
+    text-decoration: none;
+    color: aliceblue;
+    background: linear-gradient(50deg,#f77f00 ,#e63946);
+    border: 0;
+    border-radius: 2px;
+    padding: 3px 5px;
+}
+.orange-color{
+    color: #f77f00;
+}
+.exprience-width{
+    margin: 5% 5%;
+    padding-top: 2%;
+    padding-right: 5%;
+    box-shadow: 10px 10px 40px #adb5bd;
+    border-left: 7px solid;
+}
+
+#noob-ex{
+    border-image: linear-gradient(180deg,#00b4d8 ,#99d98c);
+    border-image-slice: 1;
+}
+#pro-ex{
+    border-image: linear-gradient(180deg,#ef233c ,tomato);
+    border-image-slice: 1;
+}
+
+footer p{
+    text-align: center;
+}
